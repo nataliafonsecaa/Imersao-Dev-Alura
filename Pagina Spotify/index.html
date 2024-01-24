@@ -6,8 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Página Inicial </title>
 
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./Pagina Spotify/src/styles/reset.css">
+	<link rel="stylesheet" href="../Pagina Spotify/src/styles/vars.css">
+	<link rel="stylesheet" href="../Pagina Spotify/src/styles/sidebar-footer.css">
+	<link rel="stylesheet" href="../Pagina Spotify/src/styles/main-content.css">
+
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
 		integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -52,8 +55,8 @@
 					<span class="text title">Criar sua Playlist</span>
 					<span class="text subtitle">É fácil, vamos te ajudar!</span>
 					<button class="section-playlist_buttom">
-					<span>Crie sua playlist</span>
-				</button>
+						<span>Crie sua playlist</span>
+					</button>
 				</div>
 			</section>
 			<div class="cookies">
@@ -68,18 +71,43 @@
 		</div>
 	</div>
 
+	<main>
+		<div class="main-container">
+			<nav class="header_navigation">
+				<div class="navigation">
+					<button class="arrow-left">
+						<img src="../Pagina Spotify/assets/icons/small-left.png" alt="Seta Esquerda">
+					</button>
+					<button class="arrow-right">
+						<img src="../Pagina Spotify/assets/icons/small-right.png" alt="Seta Direita">
+					</button>
+					<div class="header_search">
+						<img src="../Pagina Spotify/assets/icons/search.png" alt="">
+						<input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+					</div>
+					<div class="header_login">
+						<button class="subscribe">Inscreva-se</button>
+						<button class="login">Entrar</button>
+					</div>
+
+				</div>
+			</nav>
+		</div>
+	</main>
+
+
 	<footer class="disclaimer-premium">
 		<div class="text">
-		  <p class="disclaimer-premium__title">Testar o Premium de graça</p>
-		  <p class="disclaimer-premium__subtitle">
-			Inscreva-se para curtir música ilimitada e podcasts só com alguns
-			anúncios. Não precisa de cartão de crédito.
-		  </p>
+			<p class="disclaimer-premium__title">Testar o Premium de graça</p>
+			<p class="disclaimer-premium__subtitle">
+				Inscreva-se para curtir música ilimitada e podcasts só com alguns
+				anúncios. Não precisa de cartão de crédito.
+			</p>
 		</div>
 		<div class="button">
-		  <button type="button">Inscreva-se grátis</button>
+			<button type="button">Inscreva-se grátis</button>
 		</div>
-	  </footer>
+	</footer>
 
 	<script src="script.js"></script>
 </body>
